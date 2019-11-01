@@ -231,6 +231,42 @@ p {
 
 .top {
     border-bottom: 1px dotted black;
+    padding-bottom: 1%;
+}
+
+button {
+    background-color: white;
+    margin: 2% 0% 0% 0%;
+    width: 120px;
+    height: 40px;
+    border-radius: 25%;
+    border-color: black;
+}
+.middle1{
+    display: flex;
+    border-bottom: 1px dotted black;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.middle1 h3 {
+    padding-top: 5%;
+}
+
+.middle2 h3 {
+    padding-top: 5%;
+}
+
+.middle2 {
+    display: flex;
+    border-bottom: 1px dotted black;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.last {
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .bottom-content {
