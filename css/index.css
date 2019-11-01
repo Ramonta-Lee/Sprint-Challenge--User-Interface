@@ -78,6 +78,7 @@ p {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+    margin-bottom: 5%;
 }
 
 .container {
@@ -115,7 +116,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
+/* coloring the boxes */
 .middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
@@ -226,7 +227,11 @@ p {
     justify-content: center;
 }
 
+/* coloring the boxes ends */
 
+.top {
+    border-bottom: 1px dotted black;
+}
 
 .bottom-content {
     display: flex;
