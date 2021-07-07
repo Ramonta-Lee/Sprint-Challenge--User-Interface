@@ -31,18 +31,30 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
+<!-- answers here -->
+1) If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+Semantic is how we give meaning to the HTML content. It makes your websites readable and easily interpreted by screen-readers and search engines. Semantic also helps developers keep their code readable, organized, and easier to maintain
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-3. What are the 4 areas of the box model?
+2) Name two big differences between display: block; and display: inline;.
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+The two major differences is that with display inline, the flow is inline with its surrounding elements and you are unable to set the width, height, and the padding and margins are not respected versus display block where a line break is created after the element and because display:block is a block-level element you can make width, height, etc. adjustments as you would any other block-level element.
 
-5. Explain why git is valuable to a team of developers.
 
-You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
+3) What are the 4 areas of the box model?
+
+The 4 areas of the box model are: margin, border, padding, and content. Content is the space that the user sees. Padding is the space between the content and the border of the box. The border is the container of the padding and content and can be stylized using CSS. Margin is used to push elements away from each other.
+
+
+4) while using flex-box, what axis does the following property work on: align-items: center?
+
+The align-items property defines the default behavior for how flex items are laid out along the cross axis on the current line. It is the vertical axis so align-items:center; centers items in the cross-axis.
+
+
+5) Explain why git is valuable to a team of developers.
+
+Git is valuable to a team of developers because it allows them to work on the same project at the same time. It is a tool that keeps track of all changes made to a file without adding extra files, which would cause clutter, so that you may undo and redo many changes made to a file. It merges all of the changes made to a project at the same time and will alert the developers when there is an issue.
 
 ## Project Set Up
 
